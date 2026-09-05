@@ -10,6 +10,7 @@ The project is in the gameplay design phase.
 
 - [Prototype gameplay and architecture specification](docs/superpowers/specs/2026-09-05-cyber-dice-duel-design.md)
 - [Reference image: the 11 valid cube nets](docs/reference/cube-nets-reference.svg)
+- [Reference image: shared dice symbols](docs/reference/dice-symbols-reference.svg)
 - [Issue tracker](https://github.com/Psygaoh/cyber-dice-duel/issues)
 
 Implementation planning starts after the prototype specification is reviewed and approved.
