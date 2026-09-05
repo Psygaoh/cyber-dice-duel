@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Cyber Dice Duel — Dice symbol reference</title>
+  <desc id="desc">Six shared dice symbols: Deploy, Move, Attack, Guard, Code, and Ability.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131c"/><stop offset="1" stop-color="#101526"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42f5ff"/><stop offset="1" stop-color="#087bce"/></linearGradient>
+    <filter id="glowC"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowY"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .card{fill:#0c1b29;stroke:#1a526d;stroke-width:2}
+      .name{font:700 30px 'Segoe UI',sans-serif;letter-spacing:2px;fill:#eafcff}
+      .use{font:500 21px 'Segoe UI',sans-serif;fill:#91b9c8}
+      .eyebrow{font:600 19px 'Segoe UI',sans-serif;letter-spacing:4px;fill:#43eefa}
+      .line{stroke:#43eefa;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;fill:none}
+      .fill{fill:url(#cyan);stroke:#a8fbff;stroke-width:4;stroke-linejoin:round}
+      .gold{stroke:#ffd447;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;fill:none}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <path d="M80 110H1520M80 890H1520" stroke="#17445a" stroke-width="2"/>
+  <text x="80" y="78" class="eyebrow">CYBER DICE DUEL / PROTOTYPE REFERENCE</text>
+  <text x="80" y="160" class="name" font-size="46">SHARED DICE SYMBOLS</text>
+  <text x="80" y="198" class="use">Same visual language on both sides; the Runner and Corp spend each result differently.</text>
+
+  <!-- Deploy -->
+  <g transform="translate(80 250)"><rect width="460" height="270" rx="18" class="card"/>
+    <g transform="translate(56 55)" filter="url(#glowC)"><path d="M70 0L140 40V120L70 160L0 120V40Z" class="fill"/><path d="M70 0V80M0 40L70 80L140 40M70 80V160" class="line"/><path d="M170 112H260M230 82L260 112L230 142" class="gold"/></g>
+    <text x="280" y="78" class="eyebrow">D</text><text x="280" y="120" class="name">DEPLOY</text><text x="280" y="165" class="use">Compile a die</text><text x="280" y="194" class="use">into a 6-cell path</text><text x="280" y="232" class="use" fill="#55f6ff">Runner: backdoor</text><text x="280" y="258" class="use" fill="#ff6b77">Corp: secured route</text>
+  </g>
+  <!-- Move -->
+  <g transform="translate(570 250)"><rect width="460" height="270" rx="18" class="card"/>
+    <g transform="translate(58 72)" filter="url(#glowC)"><path d="M0 42H170M130 0L172 42L130 84M66 100H236M194 58L236 100L194 142" class="line"/></g>
+    <text x="280" y="78" class="eyebrow">M</text><text x="280" y="120" class="name">MOVE</text><text x="280" y="165" class="use">Generate mobility</text><text x="280" y="194" class="use">or command points</text><text x="280" y="232" class="use">Runner: 4 Mobility</text><text x="280" y="258" class="use">Corp: 2 Command</text>
+  </g>
+  <!-- Attack -->
+  <g transform="translate(1060 250)"><rect width="460" height="270" rx="18" class="card"/>
+    <g transform="translate(75 57)" filter="url(#glowC)"><circle cx="92" cy="78" r="56" class="line"/><circle cx="92" cy="78" r="18" class="fill"/><path d="M92 0V35M92 121V156M14 78H49M135 78H170" class="line"/></g>
+    <text x="280" y="78" class="eyebrow">A</text><text x="280" y="120" class="name">ATTACK</text><text x="280" y="165" class="use">Deal damage to</text><text x="280" y="194" class="use">an adjacent target</text><text x="280" y="232" class="use">Runner: pressure ICE</text><text x="280" y="258" class="use">Corp: crash Avatar</text>
+  </g>
+  <!-- Guard -->
+  <g transform="translate(80 570)"><rect width="460" height="270" rx="18" class="card"/>
+    <g transform="translate(66 53)" filter="url(#glowC)"><path d="M92 0L166 28V84C166 132 132 160 92 180C52 160 18 132 18 84V28Z" class="fill"/><path d="M92 45V120M55 83H129" class="line"/></g>
+    <text x="280" y="78" class="eyebrow">G</text><text x="280" y="120" class="name">GUARD</text><text x="280" y="165" class="use">Prevent damage or</text><text x="280" y="194" class="use">protect a position</text><text x="280" y="232" class="use">Runner: survive contact</text><text x="280" y="258" class="use">Corp: hold ICE / Core</text>
+  </g>
+  <!-- Code -->
+  <g transform="translate(570 570)"><rect width="460" height="270" rx="18" class="card"/>
+    <g transform="translate(62 66)" filter="url(#glowC)"><path d="M64 0L0 76L64 152M166 0L230 76L166 152M145 0L85 152" class="line"/></g>
+    <text x="280" y="78" class="eyebrow">C</text><text x="280" y="120" class="name">CODE</text><text x="280" y="165" class="use">Store for one</text><text x="280" y="194" class="use">paid reroll</text><text x="280" y="232" class="use">Runner: fix volatility</text><text x="280" y="258" class="use">Corp: fix volatility</text>
+  </g>
+  <!-- Ability -->
+  <g transform="translate(1060 570)"><rect width="460" height="270" rx="18" class="card"/>
+    <g transform="translate(65 55)" filter="url(#glowC)"><path d="M92 0L112 57L172 60L125 96L140 156L92 122L44 156L59 96L12 60L72 57Z" class="fill"/><circle cx="92" cy="82" r="20" fill="#07131c" stroke="#a8fbff" stroke-width="4"/></g>
+    <text x="280" y="78" class="eyebrow">B</text><text x="280" y="120" class="name">ABILITY</text><text x="280" y="165" class="use">Pay for role-specific</text><text x="280" y="194" class="use">special actions</text><text x="280" y="232" class="use">Runner: breach / exploit</text><text x="280" y="258" class="use">Corp: repair / sanitize</text>
+  </g>
+  <text x="80" y="945" class="use">Icon key: D Deploy · M Move · A Attack · G Guard · C Code · B Ability</text>
+</svg>
