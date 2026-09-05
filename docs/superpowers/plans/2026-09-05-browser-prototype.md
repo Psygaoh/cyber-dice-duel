@@ -27,4 +27,17 @@
 - [x] Rules: add tests for all nets/rotations, dice, placement, movement, reactions, victory, rejected-command immutability and replay; run `npm run test:rules`; implement focused `src/game` modules until passing.
 - [x] Presentation: build `src/ui`, `src/render` and `src/styles.css`; typed state and command interfaces contain all gameplay logic. Render six connected hinged faces, mini voxel octopus, ICE, data tokens and legal-placement feedback.
 - [x] Multiplayer: implement `src/server`, `db/schema.ts`, generated migration and API integration tests. Verify separate sessions, full-room rejection, resume, stale revisions, idempotency and invalid commands.
-- [ ] Delivery: run `npm test` and production build; inspect compiled artifacts and migration. Commit exact source, push GitHub feature branch, open a PR, publish the complete Site and verify final status.
+- [x] Delivery: run `npm test` and production build; inspect compiled artifacts and migration. Commit exact source, push GitHub feature branch, open a PR, publish the complete Site and verify final status.
+
+## Follow-up: first usability revision
+
+The approved requirements and acceptance checks are in [`docs/superpowers/specs/2026-09-05-prototype-usability-revision.md`](../specs/2026-09-05-prototype-usability-revision.md).
+
+- [ ] Make the dice tray persistently reachable and add the role-aware play recap plus keyboard reference.
+- [ ] Add contextual keyboard commands with visible shortcut hints and legal-action guards.
+- [ ] Render Data Nodes as solid traversable tiles in 3D and accessible-grid views.
+- [ ] Add the Runner's once-per-turn free step and its deterministic rules tests.
+- [ ] Add counterclockwise and clockwise deployment controls and shortcuts.
+- [ ] Add world-space unit labels, distinct ICE silhouettes, and non-colour identity glyphs.
+- [ ] Improve compilation, Corrupt, and Breach affordances, target previews, and action feedback.
+- [ ] Run automated checks and keyboard, desktop, mobile, and reduced-motion playtests before redeployment.

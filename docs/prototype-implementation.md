@@ -2,6 +2,8 @@
 
 Implemented from the two design specifications dated 2026-09-05. The later request adds online play, persistence, link invitations and QR codes to the original local-only design.
 
+The first usability review is documented in [`docs/superpowers/specs/2026-09-05-prototype-usability-revision.md`](superpowers/specs/2026-09-05-prototype-usability-revision.md). Those requirements are approved for the next implementation pass and are not part of the currently deployed build.
+
 ## Included
 
 - Pure TypeScript rules engine, seeded rolls, one paid reroll, persistent resources, exact cube nets and origins from the reference SVG.
@@ -18,6 +20,14 @@ Implemented from the two design specifications dated 2026-09-05. The later reque
 The parent design leaves concrete unit effects open. They are defined in `src/game/content.ts` and described in the implementation plan. When fewer than three dice remain, roll every remaining die; this prevents exhaustion from stalling turns. The three-Daemon cap requires explicit replacement.
 
 No optional advanced reaction cards, AI opponent, ranked matchmaking, account system or balance claims are included. Core Guard responses are implemented. Basic Corp attacks during Recon do not begin intrusion; the Runner's listed intrusion triggers govern the clock.
+
+## Requested usability revision
+
+The next pass must keep the dice tray reachable from the game view, add contextual keyboard shortcuts, and replace the long field-guide entry point with a concise role-aware recap in the top-right corner plus access to the full guide.
+
+Data Nodes become visibly solid traversable tiles. Deployment receives clockwise and counterclockwise rotation controls. Unit names appear beside hovered, focused, or touch-selected pieces, and ICE types receive distinct silhouettes plus non-colour base glyphs.
+
+The Runner gains one free adjacent step per action phase instead of changing a die's face distribution. Compilation, Corrupt, and Breach receive stronger availability cues, legal-target highlights, cost/result previews, and visible code-stream feedback. The complete interaction rules and acceptance checks live in the usability revision specification linked above.
 
 ## Runtime scene contract
 
