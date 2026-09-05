@@ -9,6 +9,7 @@ Custom dice generate actions and unfold into six-cell network paths. The Runner 
 The project is in the gameplay design phase.
 
 - [Prototype gameplay and architecture specification](docs/superpowers/specs/2026-09-05-cyber-dice-duel-design.md)
+- [Rules-engine vertical slice specification](docs/superpowers/specs/2026-09-05-rules-engine-vertical-slice.md)
 - [Reference image: the 11 valid cube nets](docs/reference/cube-nets-reference.svg)
 - [Reference image: shared dice symbols](docs/reference/dice-symbols-reference.svg)
 - [Issue tracker](https://github.com/Psygaoh/cyber-dice-duel/issues)
