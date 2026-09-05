@@ -38,6 +38,8 @@ The browser QA environment currently has WebGL disabled, so it can validate the 
 
 ## Next iteration backlog (after this release)
 
+- [ ] Review and approve the control/escape balance proposal before writing code: [`2026-09-05-control-and-escape-balance-design.md`](superpowers/specs/2026-09-05-control-and-escape-balance-design.md).
+- [ ] After approval, write failing rules tests first for patrol, range, Firewall/Lockdown control, and Code Block before touching production code.
 - [ ] Playtest the asymmetric balance: free-step value, Firewall surcharge, Ability costs, intrusion timing, and Corp response windows.
 - [ ] Test QR scanning and touch targeting on two physical devices over a reachable network.
 - [ ] Verify reconnect/refresh behavior during every phase, including while a player is targeting a cell.

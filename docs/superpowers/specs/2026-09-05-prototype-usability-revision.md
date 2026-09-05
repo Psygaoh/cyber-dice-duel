@@ -1,6 +1,6 @@
 # Cyber Dice Duel — Prototype Usability Revision
 
-**Status:** Requested; implementation pending
+**Status:** Iteration 02 requirements; balance follow-up pending
 **Date:** 2026-09-05
 **Applies to:** The deployed browser prototype and the rules baseline in `2026-09-05-cyber-dice-duel-design.md`
 
@@ -118,3 +118,7 @@ Runner actions that represent coding must be easier to discover and target.
 - Rules tests prove the free step resets once per Runner turn, cannot be reused, respects collision and explicit surcharges, and composes correctly with paid movement.
 - Every unit type can be identified by silhouette or base glyph at the default camera distance, and its name is available by hover, focus, or touch selection.
 - Compilation and Runner Ability actions expose legal targets, costs, previews, success, and failure without relying on the event log.
+
+## Follow-up balance boundary
+
+Playtesting found a separate rules problem: Corp control needs more mobility and active zones, while the Runner needs a small Code-paid route extension when a full net cannot fit. Those changes are intentionally not folded into this usability revision. Review [`2026-09-05-control-and-escape-balance-design.md`](2026-09-05-control-and-escape-balance-design.md) before any implementation work; it is a proposal only.

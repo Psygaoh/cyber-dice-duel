@@ -45,6 +45,7 @@ For frontend development, keep the local Worker running on port 8787 and run `np
 - [Rules-engine vertical slice specification](docs/superpowers/specs/2026-09-05-rules-engine-vertical-slice.md)
 - [First usability revision: persistent dice, shortcuts, movement, unit clarity, and coding feedback](docs/superpowers/specs/2026-09-05-prototype-usability-revision.md)
 - [Resume TODO and release checklist](docs/TODO.md)
+- [Control and escape balance proposal (spec only)](docs/superpowers/specs/2026-09-05-control-and-escape-balance-design.md)
 - [Reference image: the 11 valid cube nets](docs/reference/cube-nets-reference.svg)
 - [Reference image: shared dice symbols](docs/reference/dice-symbols-reference.svg)
 - [Issue tracker](https://github.com/Psygaoh/cyber-dice-duel/issues)
