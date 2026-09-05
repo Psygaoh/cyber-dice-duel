@@ -1,0 +1,345 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">The 11 valid cube unfolding patterns</title>
+  <desc id="desc">Eleven mathematically valid nets of six connected squares that can fold into a cube.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071018" />
+      <stop offset="1" stop-color="#0d1720" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#18303d" stroke-width="1" opacity="0.35" />
+    </pattern>
+  </defs>
+  <rect width="1600" height="980" fill="url(#background)" />
+  <rect width="1600" height="980" fill="url(#grid)" opacity="0.35" />
+  <text class="title" x="800" y="78" text-anchor="middle">11 VALID CUBE NETS</text>
+  <text class="subtitle" x="800" y="120" text-anchor="middle">Six faces · edge-connected · rotation allowed · do not mirror</text>
+  <g class="patterns">
+    <g aria-label="Cube net 01">
+      <text class="number" x="104" y="216">01</text>
+      
+      <g class="cell">
+        <rect x="204.5" y="236.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="204.5" y="278.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="246.5" y="278.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="246.5" y="320.5" width="39" height="39" rx="4" />
+        <circle cx="266" cy="340" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="246.5" y="362.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="288.5" y="320.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 02">
+      <text class="number" x="459" y="216">02</text>
+      
+      <g class="cell">
+        <rect x="559.5" y="236.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="559.5" y="278.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="601.5" y="278.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="601.5" y="320.5" width="39" height="39" rx="4" />
+        <circle cx="621" cy="340" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="601.5" y="362.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="643.5" y="362.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 03">
+      <text class="number" x="814" y="216">03</text>
+      
+      <g class="cell">
+        <rect x="914.5" y="236.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="914.5" y="278.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="956.5" y="278.5" width="39" height="39" rx="4" />
+        <circle cx="976" cy="298" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="956.5" y="320.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="998.5" y="320.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="998.5" y="362.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 04">
+      <text class="number" x="1169" y="216">04</text>
+      
+      <g class="cell">
+        <rect x="1269.5" y="236.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="1311.5" y="236.5" width="39" height="39" rx="4" />
+        <circle cx="1331" cy="256" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="1311.5" y="278.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="1311.5" y="320.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="1311.5" y="362.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="1353.5" y="236.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 05">
+      <text class="number" x="104" y="451">05</text>
+      
+      <g class="cell">
+        <rect x="204.5" y="471.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="246.5" y="471.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="246.5" y="513.5" width="39" height="39" rx="4" />
+        <circle cx="266" cy="533" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="246.5" y="555.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="246.5" y="597.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="288.5" y="513.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 06">
+      <text class="number" x="459" y="451">06</text>
+      
+      <g class="cell">
+        <rect x="559.5" y="471.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="601.5" y="471.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="601.5" y="513.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="601.5" y="555.5" width="39" height="39" rx="4" />
+        <circle cx="621" cy="575" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="601.5" y="597.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="643.5" y="555.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 07">
+      <text class="number" x="814" y="451">07</text>
+      
+      <g class="cell">
+        <rect x="914.5" y="471.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="956.5" y="471.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="956.5" y="513.5" width="39" height="39" rx="4" />
+        <circle cx="976" cy="533" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="956.5" y="555.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="956.5" y="597.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="998.5" y="597.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 08">
+      <text class="number" x="1169" y="451">08</text>
+      
+      <g class="cell">
+        <rect x="1269.5" y="513.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="1311.5" y="471.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="1311.5" y="513.5" width="39" height="39" rx="4" />
+        <circle cx="1331" cy="533" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="1311.5" y="555.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="1311.5" y="597.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="1353.5" y="513.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 09">
+      <text class="number" x="281.5" y="686">09</text>
+      
+      <g class="cell">
+        <rect x="382" y="748.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="424" y="706.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="424" y="748.5" width="39" height="39" rx="4" />
+        <circle cx="443.5" cy="768" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="424" y="790.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="424" y="832.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="466" y="790.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 10">
+      <text class="number" x="636.5" y="686">10</text>
+      
+      <g class="cell">
+        <rect x="737" y="748.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="779" y="748.5" width="39" height="39" rx="4" />
+        <circle cx="798.5" cy="768" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="779" y="790.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="779" y="832.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="821" y="706.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="821" y="748.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+    <g aria-label="Cube net 11">
+      <text class="number" x="991.5" y="686">11</text>
+      
+      <g class="cell">
+        <rect x="1113" y="685.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="1113" y="727.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell origin">
+        <rect x="1113" y="769.5" width="39" height="39" rx="4" />
+        <circle cx="1132.5" cy="789" r="5" />
+      </g>
+      <g class="cell">
+        <rect x="1155" y="769.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="1155" y="811.5" width="39" height="39" rx="4" />
+        
+      </g>
+      <g class="cell">
+        <rect x="1155" y="853.5" width="39" height="39" rx="4" />
+        
+      </g>
+    </g>
+  </g>
+  <g class="legend" transform="translate(566 914)">
+    <rect x="0" y="-22" width="34" height="34" rx="4" />
+    <circle cx="17" cy="-5" r="5" />
+    <text x="50" y="2">highlighted square = deployment origin</text>
+  </g>
+  <style>
+    .title { fill: #e8fbff; font: 600 38px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 7px; }
+    .subtitle { fill: #78a7b8; font: 400 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
+    .number { fill: #608696; font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; }
+    .cell rect { fill: #103847; stroke: #45dbff; stroke-width: 2; }
+    .cell.origin rect, .legend rect { fill: #126379; stroke: #87ecff; stroke-width: 2; filter: url(#glow); }
+    .cell circle, .legend circle { fill: #e8fbff; filter: url(#glow); }
+    .legend text { fill: #78a7b8; font: 400 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+</svg>
