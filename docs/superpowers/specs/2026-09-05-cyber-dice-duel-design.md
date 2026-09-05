@@ -146,7 +146,7 @@ Prototype content uses six named connected hexomino patterns:
 - Stair
 - Cluster
 
-Before placement, the pattern may be rotated in 90-degree increments and reflected. A placement is legal only if:
+Before placement, the pattern may be rotated in 90-degree increments but cannot be reflected. A placement is legal only if:
 
 - every cell is inside the board;
 - no cell overlaps an existing path, Gateway, or Core;
@@ -163,6 +163,21 @@ Paths belonging to both players form one traversable network when they touch ort
 After a legal Runner compilation, the associated Program is installed or resolved. After a legal Corp compilation, the associated ICE is deployed on the pattern's designated origin cell.
 
 If no legal placement exists, the player cannot compile that die and keeps it in the loadout. The Deploy results are still lost for the turn.
+
+### 7.1 Prototype visual treatment
+
+The deployment must visually preserve the physical logic of an unfolding cube:
+
+- a six-sided die appears on the selected origin cell;
+- its faces hinge outward in sequence;
+- all six faces finish flat on the board as one connected cube net;
+- the completed path is a thin tile layer on a simple rectangular grid, not elevated terrain;
+- units remain small voxel miniatures standing on path cells;
+- Data Nodes remain simple one-cell tokens;
+- the prototype board has no surrounding city, cliffs, towers, decorative side structures, or environmental flourishes;
+- gameplay UI is limited to clean screen-edge panels and does not obscure the grid.
+
+The cyberpunk identity comes from colour, emissive circuitry, materials, units, particles, and UI—not from changing the board into a landscape.
 
 ## 8. Territory and cell flipping
 
