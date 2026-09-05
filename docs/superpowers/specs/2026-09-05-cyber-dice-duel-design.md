@@ -1,8 +1,10 @@
 # Cyber Dice Duel — Prototype Design
 
-**Status:** Proposed prototype baseline  
-**Date:** 2026-09-05  
+**Status:** Proposed prototype baseline; control/escape balance pass specified separately (not implemented)
+**Date:** 2026-09-05
 **Scope:** Core gameplay and implementation boundaries for the first playable browser prototype
+
+The follow-up control and escape balance proposal is documented in [`2026-09-05-control-and-escape-balance-design.md`](2026-09-05-control-and-escape-balance-design.md). The baseline values in this document remain the historical first-slice reference until that proposal is implemented and playtested; it must not be treated as shipped behavior yet.
 
 ## 1. Product vision
 
@@ -405,3 +407,9 @@ The baseline is successful when two players can complete a full local duel and:
 - a match can be reproduced from its seed and event log.
 
 The first playtest milestone should prioritize rule clarity and pacing. Content variety, advanced reactions, additional scenarios, and final balance come afterward.
+
+## 20. Follow-up balance direction
+
+Post-prototype playtests identified two pacing failures: Corp ICE can lack a useful repositioning action, and a Runner can be boxed in when no complete six-cell net fits. The next rules pass therefore adds a Corp free patrol step, increases Corp Move results to three Command Points, gives Sentry a range-2 attack, formalizes Firewall's slow zone, adds a timed Reinforce Lockdown, and gives the Runner a once-per-phase two-Code Code Block route extension.
+
+Those mechanics, their legality rules, state requirements, and tests are specified in [`2026-09-05-control-and-escape-balance-design.md`](2026-09-05-control-and-escape-balance-design.md). They are deliberately spec-only at this stage.

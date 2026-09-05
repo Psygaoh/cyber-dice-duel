@@ -1,8 +1,10 @@
 # Cyber Dice Duel — Rules-Engine Vertical Slice Specification
 
-**Status:** Ready for implementation  
-**Date:** 2026-09-05  
+**Status:** Baseline slice implemented; follow-up balance pass pending
+**Date:** 2026-09-05
 **Parent design:** `docs/superpowers/specs/2026-09-05-cyber-dice-duel-design.md`
+
+The control and escape mechanics requested after playtesting are intentionally outside this baseline slice. Their proposed commands, state, effects, and acceptance tests live in [`2026-09-05-control-and-escape-balance-design.md`](2026-09-05-control-and-escape-balance-design.md); do not implement them as an undocumented extension of this slice.
 
 ## Goal
 
