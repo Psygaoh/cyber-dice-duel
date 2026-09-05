@@ -137,14 +137,9 @@ Each resource pool is capped at **9**. Results above the cap are lost. Resources
 
 A compiled die unfolds into its associated six-cell path pattern.
 
-Prototype content uses six named connected hexomino patterns:
+A cube has exactly **11 distinct valid six-cell nets**. The prototype catalogs them as `NET-01` through `NET-11`, and every die references one of these validated patterns.
 
-- Line
-- Hook
-- Zigzag
-- Fork
-- Stair
-- Cluster
+The authoritative visual reference is [The 11 valid cube nets](../../reference/cube-nets-reference.svg). Pattern data must use the same numbering and exact cell geometry as that reference.
 
 Before placement, the pattern may be rotated in 90-degree increments but cannot be reflected. A placement is legal only if:
 
@@ -359,7 +354,7 @@ The prototype requires automated tests for:
 
 - seeded dice rolls and paid rerolls;
 - compilation eligibility and loadout removal;
-- all rotations and reflections of six-cell patterns;
+- all rotations of the 11 valid cube-net patterns, with reflection rejected;
 - board boundaries, overlap, and connectivity;
 - asymmetric movement costs and per-turn caps;
 - cell corruption and sanitization;
