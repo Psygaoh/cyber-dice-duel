@@ -14,3 +14,13 @@ The project is in the gameplay design phase.
 - [Issue tracker](https://github.com/Psygaoh/cyber-dice-duel/issues)
 
 Implementation planning starts after the prototype specification is reviewed and approved.
+
+
+Individual symbol assets:
+
+- [Deploy](docs/reference/symbols/deploy.svg)
+- [Move](docs/reference/symbols/move.svg)
+- [Attack](docs/reference/symbols/attack.svg)
+- [Guard](docs/reference/symbols/guard.svg)
+- [Code](docs/reference/symbols/code.svg)
+- [Ability](docs/reference/symbols/ability.svg)
