@@ -88,7 +88,7 @@ Intrusion begins when the Runner performs any of the following for the first tim
 - enters a secured Corp cell;
 - corrupts a secured Corp cell;
 - attacks an ICE;
-- attempts to breach a Data Node connected through secured infrastructure.
+- attempts to breach any Data Node.
 
 When triggered, the Intrusion Window is set to **12**. The triggering round does not reduce it. Starting with the following system tick, it decreases by one after every complete round.
 
@@ -199,7 +199,7 @@ Compiled Runner dice create paths and provide one of three Program types:
 
 The Avatar has three Daemon slots. Installing a fourth requires discarding one installed Daemon.
 
-Runner Exploits may create reaction windows during the Corp turn. For the prototype, at most one Runner reaction may resolve in response to a single Corp action; reactions do not form chains.
+Runner Exploits may create reaction windows during the Corp turn. For the prototype, at most one defending-player reaction may resolve in response to a single opposing action; reactions do not form chains.
 
 ## 10. Corp rules
 
@@ -240,7 +240,7 @@ Basic combat rules:
 
 Deleting a unit does not delete or change ownership of the cell beneath it.
 
-The initial stat scale should remain small: typical Power from 1–3, ICE Integrity from 1–5, and Avatar Integrity at **8**. These values are configuration and require playtesting.
+The initial stat scale should remain small: typical Power from 1–3, ICE Integrity from 1–5, Avatar Power at **2**, and Avatar Integrity at **8**. These values are configuration and require playtesting.
 
 ## 12. Data breach and extraction
 
@@ -373,6 +373,7 @@ Balance values require playtesting rather than unit-test assertions. The event l
 | Runner Mobility Points per Move | 4 |
 | Corp Command Points per Move | 2 |
 | Maximum ICE movement per turn | 2 cells |
+| Avatar Power | 2 |
 | Avatar Integrity | 8 |
 | Data required | 2 of 3 |
 | Data breach cost | 2 Ability |
